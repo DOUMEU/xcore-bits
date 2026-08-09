@@ -61,6 +61,15 @@ import GlitchTextPage from "./pages/text-animations/GlitchTextPage";
 import ScrollVelocityPage from "./pages/text-animations/ScrollVelocityPage";
 import VariableProximityPage from "./pages/text-animations/VariableProximityPage";
 import CountUpPage from "./pages/text-animations/CountUpPage";
+import MaskedHeadingPage from "./pages/text-animations/MaskedHeadingPage";
+import ParticleTextPage from "./pages/text-animations/ParticleTextPage";
+import SplitFlapTextPage from "./pages/text-animations/SplitFlapTextPage";
+import WarpTextPage from "./pages/text-animations/WarpTextPage";
+import StrokeTextPage from "./pages/text-animations/StrokeTextPage";
+import DepthTextPage from "./pages/text-animations/DepthTextPage";
+import FoldTextPage from "./pages/text-animations/FoldTextPage";
+import EchoTextPage from "./pages/text-animations/EchoTextPage";
+import TextLoopPage from "./pages/text-animations/TextLoopPage";
 
 const backgrounds = {
   "acid-squares": AcidSquaresPage,
@@ -126,6 +135,15 @@ const textAnimations = {
   "scroll-velocity": ScrollVelocityPage,
   "variable-proximity": VariableProximityPage,
   "count-up": CountUpPage,
+  "masked-heading": MaskedHeadingPage,
+  "particle-text": ParticleTextPage,
+  "split-flap-text": SplitFlapTextPage,
+  "warp-text": WarpTextPage,
+  "stroke-text": StrokeTextPage,
+  "depth-text": DepthTextPage,
+  "fold-text": FoldTextPage,
+  "echo-text": EchoTextPage,
+  "text-loop": TextLoopPage,
 };
 
 function App() {

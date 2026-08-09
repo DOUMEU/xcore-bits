@@ -59,6 +59,15 @@ import TextPressureDocs from "../text-animations/TextPressure";
 import TextTypeDocs from "../text-animations/TextType";
 import TrueFocusDocs from "../text-animations/TrueFocus";
 import VariableProximityDocs from "../text-animations/VariableProximity";
+import MaskedHeadingDocs from "../text-animations/MaskedHeading";
+import { ParticleTextDocs } from "../text-animations/ParticleText";
+import SplitFlapTextDocs from "../text-animations/SplitFlapText";
+import WarpTextDocs from "../text-animations/WarpText";
+import { StrokeTextDocs } from "../text-animations/StrokeText";
+import { DepthTextDocs } from "../text-animations/DepthText";
+import { FoldTextDocs } from "../text-animations/FoldText";
+import { EchoTextDocs } from "../text-animations/EchoText";
+import { TextLoopDocs } from "../text-animations/TextLoop";
 
 export const docsRegistry = {
   "backgrounds/acid-squares": AcidSquaresDocs,
@@ -122,6 +131,15 @@ export const docsRegistry = {
   "text-animations/text-type": TextTypeDocs,
   "text-animations/true-focus": TrueFocusDocs,
   "text-animations/variable-proximity": VariableProximityDocs,
+  "text-animations/masked-heading": MaskedHeadingDocs,
+  "text-animations/particle-text": ParticleTextDocs,
+  "text-animations/split-flap-text": SplitFlapTextDocs,
+  "text-animations/warp-text": WarpTextDocs,
+  "text-animations/stroke-text": StrokeTextDocs,
+  "text-animations/depth-text": DepthTextDocs,
+  "text-animations/fold-text": FoldTextDocs,
+  "text-animations/echo-text": EchoTextDocs,
+  "text-animations/text-loop": TextLoopDocs,
 };
 
 export function getDocsByPath(path) {
