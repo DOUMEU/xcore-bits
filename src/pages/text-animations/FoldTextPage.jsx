@@ -1,17 +1,17 @@
+import { useState } from "react";
 import DemoLayout from "../../components/DemoLayout";
 import ReplayButton from "../../components/ReplayButton";
 import FoldText from "../../components/text-animations/FoldText";
 
 function FoldTextPage() {
-  const handleAnimationComplete = () => {
-    console.log("Animation completed!");
-  };
+  const [replayKey, setReplayKey] = useState(0);
 
   return (
     <DemoLayout>
       <ReplayButton onClick={() => setReplayKey((key) => key + 1)} />
 
       <FoldText
+        key={replayKey}
         text="Motion Fold Text"
         splitBy="char"
         hinge="top"

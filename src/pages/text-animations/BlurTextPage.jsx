@@ -18,7 +18,7 @@ function BlurTextPage() {
           delay={200}
           animateBy="words"
           direction="top"
-          fontSize="clamp(2rem, 8vw, 8rem)"
+          fontSize="clamp(3rem, 8vw, 8rem)"
         />
       </TextDemoWrapper>
     </DemoLayout>
