@@ -11,14 +11,13 @@ function BlurTextPage() {
     <DemoLayout>
       <ReplayButton onClick={() => setReplayKey((key) => key + 1)} />
 
-      <TextDemoWrapper variant="Blur Text" /*color="#A855F7"*/>
+      <TextDemoWrapper variant="title" /*color="#A855F7"*/>
         <BlurText
           key={replayKey}
           text="Hello World"
           delay={200}
           animateBy="words"
           direction="top"
-          fontSize="clamp(3rem, 8vw, 8rem)"
         />
       </TextDemoWrapper>
     </DemoLayout>

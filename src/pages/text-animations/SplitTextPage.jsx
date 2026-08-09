@@ -11,7 +11,7 @@ function SplitTextPage() {
     <DemoLayout>
       <ReplayButton onClick={() => setReplayKey((key) => key + 1)} />
 
-      <TextDemoWrapper variant="hero">
+      <TextDemoWrapper variant="title">
         <SplitText
           key={replayKey}
           text="Hello, Split Text!"

@@ -5,7 +5,7 @@ import ParticleText from "../../components/text-animations/ParticleText";
 function ParticleTextPage() {
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="ParticleText">
+      <TextDemoWrapper variant="title">
         <div style={{ width: "100%", height: 800 }}>
           <ParticleText
             text="Future Interfaces"
@@ -20,7 +20,6 @@ function ParticleTextPage() {
             repelRadius={120}
             idleDrift={0.8}
             trigger="mount"
-            fontSize="clamp(2rem, 8vw, 8rem)"
             fontWeight={800}
             fontFamily="inherit"
             glow

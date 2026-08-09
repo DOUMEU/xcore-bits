@@ -5,7 +5,7 @@ import SplitFlapText from "../../components/text-animations/SplitFlapText";
 function SplitFlapTextPage() {
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="SplitFlapText">
+      <TextDemoWrapper variant="Title">
         <SplitFlapText
           words={["LAUNCH READY", "SYNC ONLINE", "SIGNAL LIVE"]}
           flipDuration={0.12}
