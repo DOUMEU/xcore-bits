@@ -20,7 +20,7 @@ function EchoTextPage() {
         cursorRadius={320}
         duration={900}
         ease="ease-out"
-        fontSize="clamp(3rem, 9vw, 7rem)"
+        fontSize="clamp(2rem, 8vw, 8rem)"
         fontWeight={800}
         color="#f8fafc"
       />

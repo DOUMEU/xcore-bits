@@ -16,7 +16,7 @@ function VariableProximityPage() {
           padding: "60px",
           textAlign: "center",
           color: "#ffffff",
-          fontSize: "clamp(32px, 5vw, 72px)",
+          fontSize: "clamp(2rem, 8vw, 8rem)",
           lineHeight: 1.2,
         }}
       >

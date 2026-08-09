@@ -13,6 +13,7 @@ function StrokeTextPage() {
 
       <TextDemoWrapper variant="hero">
         <StrokeText
+          key={replayKey}
           text="Draw Attention"
           strokeColor="#A78BFA"
           fillColor="#F8FAFC"
@@ -23,7 +24,7 @@ function StrokeTextPage() {
           ease="power2.out"
           trigger="mount"
           fillMode="wipe"
-          fontSize={128}
+          fontSize={96}
           fontWeight={800}
           letterSpacing={-4}
           reverse={false}
