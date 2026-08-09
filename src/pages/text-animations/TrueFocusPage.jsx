@@ -9,7 +9,7 @@ function TrueFocusPage() {
 
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <TrueFocus
           sentence="True Focus"
           manualMode={false}

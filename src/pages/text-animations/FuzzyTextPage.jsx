@@ -16,7 +16,7 @@ function FuzzyTextPage() {
           baseIntensity={0.2}
           hoverIntensity={0.5}
           enableHover={true}
-          fontSize="clamp(5rem, 14vw, 11rem)"
+          fontSize="clamp(2rem, 8vw, 8rem)"
         >
           404
         </FuzzyText>
@@ -25,7 +25,7 @@ function FuzzyTextPage() {
           baseIntensity={0.2}
           hoverIntensity={0.5}
           enableHover={true}
-          fontSize="clamp(1.5rem, 5vw, 4rem)"
+          fontSize="clamp(4em, 8vw, 8em)"
         >
           Not Found
         </FuzzyText>

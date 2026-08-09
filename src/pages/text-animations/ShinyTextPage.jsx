@@ -9,7 +9,7 @@ function ShinyTextPage() {
 
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <ShinyText
           text="✨ Shiny Text Effect ✨"
           speed={2}

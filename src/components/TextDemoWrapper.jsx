@@ -1,24 +1,24 @@
 export const textVariants = {
   display: {
-    fontSize: "clamp(120px, 15vw, 300px)",
+    fontSize: "clamp(8em, 12vw, 12em)",
     fontWeight: 800,
     lineHeight: 1,
   },
 
   hero: {
-    fontSize: "clamp(56px, 8vw, 120px)",
+    fontSize: "clamp(4em, 8vw, 8em)",
     fontWeight: 700,
     lineHeight: 1.1,
   },
 
   title: {
-    fontSize: "clamp(24px, 4vw, 48px)",
+    fontSize: "clamp(2em, 4vw, 4em)",
     fontWeight: 700,
     lineHeight: 1.2,
   },
 
   body: {
-    fontSize: "clamp(14px, 2vw, 24px)",
+    fontSize: "clamp(1.25em, 2vw, 1.5em)",
     fontWeight: 400,
     lineHeight: 1.5,
   },

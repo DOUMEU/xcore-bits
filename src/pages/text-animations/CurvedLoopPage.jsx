@@ -11,7 +11,7 @@ function CurvedLoopPage() {
         direction="right"
         interactive
         className="custom-text-style"
-        fontSize="clamp(2rem, 8vw, 8rem)"
+        fontSize="clamp(4em, 8vw, 8em)"
       />
     </DemoLayout>
   );

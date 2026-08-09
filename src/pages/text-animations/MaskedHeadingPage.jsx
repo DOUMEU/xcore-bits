@@ -19,7 +19,7 @@ const COVERR_VIDEO =
 function MaskedHeadingPage() {
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         {/* <MaskedHeading text="Designed in the details" src={MODEL_PHOTO_1} /> */}
         <MaskedHeading
           text="Designed in the details"

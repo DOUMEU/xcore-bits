@@ -5,7 +5,7 @@ import DecryptedText from "../../components/text-animations/DecryptedText";
 function DecryptedTextPage() {
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <div
           style={{
             display: "flex",

@@ -9,7 +9,7 @@ function TextTypePage() {
 
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <TextType
           text={[
             "Welcome to React Bits!",

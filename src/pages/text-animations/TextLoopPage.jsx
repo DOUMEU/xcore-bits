@@ -15,7 +15,7 @@ function TextLoopPage() {
         direction="forward"
         separator="✦"
         curviness={90}
-        fontSize={46}
+        fontSize="clamp(4em, 8vw, 8em)"
         fontWeight={800}
         letterSpacing={2}
         uppercase

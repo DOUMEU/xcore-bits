@@ -5,7 +5,7 @@ import ParticleText from "../../components/text-animations/ParticleText";
 function ParticleTextPage() {
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <div style={{ width: "100%", height: 800 }}>
           <ParticleText
             text="Future Interfaces"

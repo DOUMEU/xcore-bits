@@ -19,7 +19,7 @@ function DepthTextPage() {
         perspective={900}
         autoOrbit
         orbitSpeed={0.35}
-        fontSize="clamp(2rem, 8vw, 8rem)"
+        fontSize="clamp(4em, 8vw, 8em)"
         fontWeight={900}
         shadow
       />

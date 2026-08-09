@@ -18,7 +18,7 @@ function TextPressurePage() {
         italic={true}
         textColor="#ffffff"
         strokeColor="#5227FF"
-        minFontSize={36}
+        fontSize="clamp(4em, 8vw, 8em)"
       />
     </DemoLayout>
   );

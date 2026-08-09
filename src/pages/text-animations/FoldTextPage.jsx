@@ -21,7 +21,7 @@ function FoldTextPage() {
         ease="power3.out"
         perspective={700}
         creaseShading={0.55}
-        fontSize="clamp(2rem, 8vw, 8rem)"
+        fontSize="clamp(4em, 8vw, 8em)"
         fontWeight={800}
         color="#f7f2e8"
       />

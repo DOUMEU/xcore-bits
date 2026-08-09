@@ -9,7 +9,7 @@ function GradientTextPage() {
 
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <GradientText
           colors={["#5227FF", "#FF9FFC", "#B497CF"]}
           animationSpeed={8}

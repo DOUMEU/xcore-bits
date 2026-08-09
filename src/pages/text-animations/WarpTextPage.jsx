@@ -17,7 +17,7 @@ function WarpTextPage() {
         pointerStrength={0.38}
         refraction={0.018}
         ripple
-        fontSize="clamp(2rem, 8vw, 8rem)"
+        fontSize="clamp(4em, 8vw, 8em)"
         fontWeight={800}
         style={{ height: "320px" }}
         fontFamily="inherit"

@@ -21,7 +21,7 @@ function CountUpPage() {
         delay={0}
         style={{
           color: "#ffffff",
-          fontSize: "clamp(40px, 8vw, 120px)",
+          fontSize: "clamp(4em, 8vw, 8em)",
           fontWeight: "700",
           lineHeight: 1,
         }}

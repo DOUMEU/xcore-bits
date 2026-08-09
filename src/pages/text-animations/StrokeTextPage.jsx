@@ -11,7 +11,7 @@ function StrokeTextPage() {
     <DemoLayout>
       <ReplayButton onClick={() => setReplayKey((key) => key + 1)} />
 
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <StrokeText
           key={replayKey}
           text="Draw Attention"
@@ -24,7 +24,6 @@ function StrokeTextPage() {
           ease="power2.out"
           trigger="mount"
           fillMode="wipe"
-          fontSize={96}
           fontWeight={800}
           letterSpacing={-4}
           reverse={false}

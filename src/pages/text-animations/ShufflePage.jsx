@@ -9,9 +9,9 @@ function ShufflePage() {
 
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <Shuffle
-          text="Hello World"
+          text="Hello Shuffle"
           shuffleDirection="right"
           duration={0.35}
           animationMode="evenodd"
