@@ -13,6 +13,13 @@
   color: #ffffff;
 }
 
+.text-rotate-inner {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  position: relative;
+}
+
 .text-rotate-sr-only {
   position: absolute;
   width: 1px;
