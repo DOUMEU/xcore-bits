@@ -5,7 +5,7 @@ import RotatingText from "../../components/text-animations/RotatingText";
 function RotatingTextPage() {
   return (
     <DemoLayout>
-      <TextDemoWrapper variant="title">
+      <TextDemoWrapper variant="hero">
         <div
           style={{
             display: "flex",

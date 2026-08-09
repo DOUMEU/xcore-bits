@@ -10,10 +10,10 @@ function ScrambledTextPage() {
     <DemoLayout>
       <ScrambledText
         className="scrambled-text-demo"
-        radius={100}
+        radius={30}
         duration={1.2}
         speed={0.5}
-        scrambleChars=".:"
+        scrambleChars="🫠"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
         pariatur dignissimos porro eius quam doloremque et enim velit nobis
