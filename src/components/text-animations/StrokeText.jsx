@@ -242,7 +242,7 @@ const StrokeText = ({
       className={`stroke-text ${trigger === "hover" ? "stroke-text--hover" : ""} ${className}`.trim()}
       style={{
         ...style,
-        "--stroke-text-height": `${Math.round(fontSize * 1.3)}px`,
+        "--stroke-text-height": `${Math.round(box ? box.height : fontSize * 1.3)}px`,
       }}
       role="img"
       aria-label={String(text ?? "")}

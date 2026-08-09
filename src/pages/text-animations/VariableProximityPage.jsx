@@ -11,12 +11,12 @@ function VariableProximityPage() {
         ref={containerRef}
         style={{
           position: "relative",
-          width: "80vw",
+          width: "100%",
           maxWidth: "900px",
           padding: "60px",
           textAlign: "center",
           color: "#ffffff",
-          fontSize: "clamp(4em, 8vw, 8em)",
+          fontSize: "clamp(4em, 6vw, 8em)",
           lineHeight: 1.2,
         }}
       >
