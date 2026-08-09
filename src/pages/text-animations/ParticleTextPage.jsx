@@ -21,7 +21,6 @@ function ParticleTextPage() {
             idleDrift={0.8}
             trigger="mount"
             fontWeight={800}
-            fontFamily="inherit"
             glow
           />
         </div>

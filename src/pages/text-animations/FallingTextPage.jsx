@@ -33,7 +33,7 @@ function FallingTextPage() {
         backgroundColor="transparent"
         wireframes={false}
         gravity={0.2}
-        fontSize="clamp(4em, 8vw, 8em)"
+        fontSize="clamp(0.5em, 8vw, 4em)"
         mouseConstraintStiffness={0.9}
       />
     </DemoLayout>

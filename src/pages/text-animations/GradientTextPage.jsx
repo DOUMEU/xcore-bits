@@ -16,7 +16,7 @@ function GradientTextPage() {
           showBorder={false}
           className="custom-class"
         >
-          Add a splash of color!
+          Gradient Text
         </GradientText>
       </TextDemoWrapper>
     </DemoLayout>

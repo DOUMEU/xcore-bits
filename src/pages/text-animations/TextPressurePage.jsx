@@ -8,18 +8,19 @@ function TextPressurePage() {
 
   return (
     <DemoLayout>
-      <TextPressure
-        text="Hello!"
-        flex={true}
-        alpha={false}
-        stroke={false}
-        width={true}
-        weight={true}
-        italic={true}
-        textColor="#ffffff"
-        strokeColor="#5227FF"
-        fontSize="clamp(4em, 8vw, 8em)"
-      />
+      <div style={{ width: "100%", maxWidth: "560px" }}>
+        <TextPressure
+          text="Hello!"
+          flex={true}
+          alpha={false}
+          stroke={false}
+          width={true}
+          weight={true}
+          italic={true}
+          textColor="#ffffff"
+          strokeColor="#5227FF"
+        />
+      </div>
     </DemoLayout>
   );
 }

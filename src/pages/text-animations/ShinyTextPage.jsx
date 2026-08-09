@@ -11,7 +11,7 @@ function ShinyTextPage() {
     <DemoLayout>
       <TextDemoWrapper variant="hero">
         <ShinyText
-          text="✨ Shiny Text Effect ✨"
+          text="✨ Shiny Text ✨"
           speed={2}
           delay={0}
           color="#b5b5b5"
