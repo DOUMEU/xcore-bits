@@ -6,15 +6,15 @@ import StrokeText from "../../components/text-animations/StrokeText";
 
 function StrokeTextPage() {
   const [replayKey, setReplayKey] = useState(0);
-  // TextDemoWrapper의 "hero" variant(clamp(56px, 8vw, 120px))와 동일한 크기.
+  // TextDemoWrapper의 "hero" variant(clamp(4em, 8vw, 8em) = clamp(64px, 8vw, 128px))와 동일한 크기.
   // StrokeText는 SVG 내부에서 fontSize 숫자로 직접 연산하기 때문에
   // CSS clamp() 문자열을 못 쓰고, 창 크기 변화에 맞춰 숫자를 직접 계산해줘야 함.
-  const [fontSize, setFontSize] = useState(120);
+  const [fontSize, setFontSize] = useState(128);
 
   useEffect(() => {
     const updateSize = () => {
       const w = window.innerWidth;
-      setFontSize(Math.max(56, Math.min(w * 0.08, 120)));
+      setFontSize(Math.max(64, Math.min(w * 0.08, 128)));
     };
 
     updateSize();
