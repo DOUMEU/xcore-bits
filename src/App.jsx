@@ -37,6 +37,30 @@ import LightningPage from "./pages/backgrounds/LightningPage";
 import LineWavesPage from "./pages/backgrounds/LineWavesPage";
 import LiquidChromePage from "./pages/backgrounds/LiquidChromePage";
 import LiquidEtherPage from "./pages/backgrounds/LiquidEtherPage";
+import MoltenMetalPage from "./pages/backgrounds/MoltenMetalPage";
+import NoisePage from "./pages/backgrounds/NoisePage";
+import OrbPage from "./pages/backgrounds/OrbPage";
+import ParticlesPage from "./pages/backgrounds/ParticlesPage";
+import PixelBlastPage from "./pages/backgrounds/PixelBlastPage";
+import PixelSnowPage from "./pages/backgrounds/PixelSnowPage";
+import PlasmaPage from "./pages/backgrounds/PlasmaPage";
+import PlasmaWavePage from "./pages/backgrounds/PlasmaWavePage";
+import PrismPage from "./pages/backgrounds/PrismPage";
+import PrismaticBurstPage from "./pages/backgrounds/PrismaticBurstPage";
+import RadarPage from "./pages/backgrounds/RadarPage";
+import RibbonsPage from "./pages/backgrounds/RibbonsPage";
+import RippleGridPage from "./pages/backgrounds/RippleGridPage";
+import ScannerPage from "./pages/backgrounds/ScannerPage";
+import ShapeGridPage from "./pages/backgrounds/ShapeGridPage";
+import SideRaysPage from "./pages/backgrounds/SideRaysPage";
+import SilkPage from "./pages/backgrounds/SilkPage";
+import SlicedWavesPage from "./pages/backgrounds/SlicedWavesPage";
+import SoftAuroraPage from "./pages/backgrounds/SoftAuroraPage";
+import SplashCursorPage from "./pages/backgrounds/SplashCursorPage";
+import ThreadsPage from "./pages/backgrounds/ThreadsPage";
+import TopographyPage from "./pages/backgrounds/TopographyPage";
+import WavesPage from "./pages/backgrounds/WavesPage";
+import WebThreadsPage from "./pages/backgrounds/WebThreadsPage";
 
 import SplitTextPage from "./pages/text-animations/SplitTextPage";
 import BlurTextPage from "./pages/text-animations/BlurTextPage";
@@ -109,6 +133,30 @@ const backgrounds = {
   "line-waves": LineWavesPage,
   "liquid-chrome": LiquidChromePage,
   "liquid-ether": LiquidEtherPage,
+  "molten-metal": MoltenMetalPage,
+  noise: NoisePage,
+  orb: OrbPage,
+  particles: ParticlesPage,
+  "pixel-blast": PixelBlastPage,
+  "pixel-snow": PixelSnowPage,
+  plasma: PlasmaPage,
+  "plasma-wave": PlasmaWavePage,
+  prism: PrismPage,
+  "prismatic-burst": PrismaticBurstPage,
+  radar: RadarPage,
+  ribbons: RibbonsPage,
+  "ripple-grid": RippleGridPage,
+  scanner: ScannerPage,
+  "shape-grid": ShapeGridPage,
+  "side-rays": SideRaysPage,
+  silk: SilkPage,
+  "sliced-waves": SlicedWavesPage,
+  "soft-aurora": SoftAuroraPage,
+  "splash-cursor": SplashCursorPage,
+  threads: ThreadsPage,
+  topography: TopographyPage,
+  waves: WavesPage,
+  "web-threads": WebThreadsPage,
 };
 
 const textAnimations = {

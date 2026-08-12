@@ -35,6 +35,30 @@ import LightningDocs from "../backgrounds/Lightning";
 import LineWaves from "../backgrounds/LineWaves";
 import LiquidChromeDocs from "../backgrounds/LiquidChrome";
 import LiquidEtherDocs from "../backgrounds/LiquidEther";
+import MoltenMetalDocs from "../backgrounds/MoltenMetal";
+import NoiseDocs from "../backgrounds/Noise";
+import OrbDocs from "../backgrounds/Orb";
+import ParticlesDocs from "../backgrounds/Particles";
+import PixelBlastDocs from "../backgrounds/PixelBlast";
+import PixelSnowDocs from "../backgrounds/PixelSnow";
+import PlasmaDocs from "../backgrounds/Plasma";
+import PlasmaWaveDocs from "../backgrounds/PlasmaWave";
+import PrismDocs from "../backgrounds/Prism";
+import PrismaticBurstDocs from "../backgrounds/PrismaticBurst";
+import RadarDocs from "../backgrounds/Radar";
+import RibbonsDocs from "../backgrounds/Ribbons";
+import RippleGridDocs from "../backgrounds/RippleGrid";
+import ScannerDocs from "../backgrounds/Scanner";
+import ShapeGridDocs from "../backgrounds/ShapeGrid";
+import SideRaysDocs from "../backgrounds/SideRays";
+import SilkDocs from "../backgrounds/Silk";
+import SlicedWavesDocs from "../backgrounds/SlicedWaves";
+import SoftAuroraDocs from "../backgrounds/SoftAurora";
+import SplashCursorDocs from "../backgrounds/SplashCursor";
+import ThreadsDocs from "../backgrounds/Threads";
+import TopographyDocs from "../backgrounds/Topography";
+import WavesDocs from "../backgrounds/Waves";
+import WebThreadsDocs from "../backgrounds/WebThreads";
 
 import ASCIITextDocs from "../text-animations/ASCIIText";
 import BlurTextDocs from "../text-animations/BlurText";
@@ -107,6 +131,30 @@ export const docsRegistry = {
   "backgrounds/line-waves": LineWaves,
   "backgrounds/liquid-chrome": LiquidChromeDocs,
   "backgrounds/liquid-ether": LiquidEtherDocs,
+  "backgrounds/molten-metal": MoltenMetalDocs,
+  "backgrounds/noise": NoiseDocs,
+  "backgrounds/orb": OrbDocs,
+  "backgrounds/particles": ParticlesDocs,
+  "backgrounds/pixel-blast": PixelBlastDocs,
+  "backgrounds/pixel-snow": PixelSnowDocs,
+  "backgrounds/plasma": PlasmaDocs,
+  "backgrounds/plasma-wave": PlasmaWaveDocs,
+  "backgrounds/prism": PrismDocs,
+  "backgrounds/prismatic-burst": PrismaticBurstDocs,
+  "backgrounds/radar": RadarDocs,
+  "backgrounds/ribbons": RibbonsDocs,
+  "backgrounds/ripple-grid": RippleGridDocs,
+  "backgrounds/scanner": ScannerDocs,
+  "backgrounds/shape-grid": ShapeGridDocs,
+  "backgrounds/side-rays": SideRaysDocs,
+  "backgrounds/silk": SilkDocs,
+  "backgrounds/sliced-waves": SlicedWavesDocs,
+  "backgrounds/soft-aurora": SoftAuroraDocs,
+  "backgrounds/splash-cursor": SplashCursorDocs,
+  "backgrounds/threads": ThreadsDocs,
+  "backgrounds/topography": TopographyDocs,
+  "backgrounds/waves": WavesDocs,
+  "backgrounds/web-threads": WebThreadsDocs,
 
   "text-animations/ascii-text": ASCIITextDocs,
   "text-animations/blur-text": BlurTextDocs,
