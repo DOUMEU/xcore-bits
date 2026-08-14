@@ -11,7 +11,9 @@ const installCommands = {
   bun: "bunx shadcn@latest add @react-bits/SwarmCursor-JS-CSS",
 };
 
-const usageCode = `<div style={{ position: 'relative', width: '100%', height: '450px' }}>
+const usageCode = `import SwarmCursor from './SwarmCursor';
+
+<div style={{ position: 'relative', width: '100%', height: '450px' }}>
   <SwarmCursor
     color="#ffffff"
     accentColor="#ffffff"

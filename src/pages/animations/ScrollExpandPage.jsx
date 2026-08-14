@@ -15,7 +15,7 @@ function ScrollExpandPage() {
         <h2 style={{ fontSize: "40px", fontWeight: "700", color: "#fff" }}>
           Scroll Expand
         </h2>
-        <p style={{ fontSize: "24px", color: "#fff" }}>
+        <p style={{ fontSize: "20px", color: "#fff" }}>
           스크롤하면 프레임이 열리면서 전체 무대를 미디어에 맡기게 됩니다.
         </p>
       </ScrollExpand>
