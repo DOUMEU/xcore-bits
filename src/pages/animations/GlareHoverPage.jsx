@@ -5,6 +5,8 @@ function GlareHoverPage() {
   return (
     <DemoLayout>
       <GlareHover
+        width="400px"
+        height="200px"
         glareColor="#ffffff"
         glareOpacity={0.3}
         glareAngle={-30}
@@ -14,7 +16,7 @@ function GlareHoverPage() {
       >
         <h2
           style={{
-            fontSize: "4rem",
+            fontSize: "3rem",
             fontWeight: "800",
             color: "#fff",
             margin: 0,
