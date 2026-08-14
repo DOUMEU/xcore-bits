@@ -93,6 +93,38 @@ import { FoldTextDocs } from "../text-animations/FoldText";
 import { EchoTextDocs } from "../text-animations/EchoText";
 import { TextLoopDocs } from "../text-animations/TextLoop";
 
+import ScrollExpandDocs from "../animations/ScrollExpand";
+import ElasticMeshDocs from "../animations/ElasticMesh";
+import RippleDistortionDocs from "../animations/RippleDistortion";
+import SwarmCursorDocs from "../animations/SwarmCursor";
+import HalftoneRevealDocs from "../animations/HalftoneReveal";
+import PixelSwapDocs from "../animations/PixelSwap";
+import CursorGridDocs from "../animations/CursorGrid";
+import AnimatedContentDocs from "../animations/AnimatedContent";
+import FadeContentDocs from "../animations/FadeContent";
+import ElectricBorderDocs from "../animations/ElectricBorder";
+import OrbitImagesDocs from "../animations/OrbitImages";
+import PixelTransitionDocs from "../animations/PixelTransition";
+import GlareHoverDocs from "../animations/GlareHover";
+import LogoLoopDocs from "../animations/LogoLoop";
+import TargetCursorDocs from "../animations/TargetCursor";
+import MagicRingsDocs from "../animations/MagicRings";
+import MagnetLinesDocs from "../animations/MagnetLines";
+import GradualBlurDocs from "../animations/GradualBlur";
+import MagnetDocs from "../animations/Magnet";
+import StrandsDocs from "../animations/Strands";
+import StickerPeelDocs from "../animations/StickerPeel";
+import PixelTrailDocs from "../animations/PixelTrail";
+import CubesDocs from "../animations/Cubes";
+import MetallicPaintDocs from "../animations/MetallicPaint";
+import ShapeBlurDocs from "../animations/ShapeBlur";
+import CrosshairDocs from "../animations/Crosshair";
+import MetaBallsDocs from "../animations/MetaBalls";
+import BlobCursorDocs from "../animations/BlobCursor";
+import StarBorderDocs from "../animations/StarBorder";
+
+import DepthCarouselDocs from "../components/DepthCarousel";
+
 export const docsRegistry = {
   "backgrounds/acid-squares": AcidSquaresDocs,
   "backgrounds/antigravity": AntigravityDocs,
@@ -188,6 +220,38 @@ export const docsRegistry = {
   "text-animations/fold-text": FoldTextDocs,
   "text-animations/echo-text": EchoTextDocs,
   "text-animations/text-loop": TextLoopDocs,
+
+  "animations/scroll-expand": ScrollExpandDocs,
+  "animations/elastic-mesh": ElasticMeshDocs,
+  "animations/ripple-distortion": RippleDistortionDocs,
+  "animations/swarm-cursor": SwarmCursorDocs,
+  "animations/halftone-reveal": HalftoneRevealDocs,
+  "animations/pixel-swap": PixelSwapDocs,
+  "animations/cursor-grid": CursorGridDocs,
+  "animations/animated-content": AnimatedContentDocs,
+  "animations/fade-content": FadeContentDocs,
+  "animations/electric-border": ElectricBorderDocs,
+  "animations/orbit-images": OrbitImagesDocs,
+  "animations/pixel-transition": PixelTransitionDocs,
+  "animations/glare-hover": GlareHoverDocs,
+  "animations/logo-loop": LogoLoopDocs,
+  "animations/target-cursor": TargetCursorDocs,
+  "animations/magic-rings": MagicRingsDocs,
+  "animations/magnet-lines": MagnetLinesDocs,
+  "animations/gradual-blur": GradualBlurDocs,
+  "animations/magnet": MagnetDocs,
+  "animations/strands": StrandsDocs,
+  "animations/sticker-peel": StickerPeelDocs,
+  "animations/pixel-trail": PixelTrailDocs,
+  "animations/cubes": CubesDocs,
+  "animations/metallic-paint": MetallicPaintDocs,
+  "animations/shape-blur": ShapeBlurDocs,
+  "animations/crosshair": CrosshairDocs,
+  "animations/meta-balls": MetaBallsDocs,
+  "animations/blob-cursor": BlobCursorDocs,
+  "animations/star-border": StarBorderDocs,
+
+  "components/depth-carousel": DepthCarouselDocs,
 };
 
 export function getDocsByPath(path) {

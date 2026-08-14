@@ -95,6 +95,38 @@ import FoldTextPage from "./pages/text-animations/FoldTextPage";
 import EchoTextPage from "./pages/text-animations/EchoTextPage";
 import TextLoopPage from "./pages/text-animations/TextLoopPage";
 
+import ScrollExpandPage from "./pages/animations/ScrollExpandPage";
+import ElasticMeshPage from "./pages/animations/ElasticMeshPage";
+import RippleDistortionPage from "./pages/animations/RippleDistortionPage";
+import SwarmCursorPage from "./pages/animations/SwarmCursorPage";
+import HalftoneRevealPage from "./pages/animations/HalftoneRevealPage";
+import CursorGridPage from "./pages/animations/CursorGridPage";
+import PixelSwapPage from "./pages/animations/PixelSwapPage";
+import AnimatedContentPage from "./pages/animations/AnimatedContentPage";
+import FadeContentPage from "./pages/animations/FadeContentPage";
+import ElectricBorderPage from "./pages/animations/ElectricBorderPage";
+import OrbitImagesPage from "./pages/animations/OrbitImagesPage";
+import PixelTransitionPage from "./pages/animations/PixelTransitionPage";
+import GlareHoverPage from "./pages/animations/GlareHoverPage";
+import LogoLoopPage from "./pages/animations/LogoLoopPage";
+import TargetCursorPage from "./pages/animations/TargetCursorPage";
+import MagicRingsPage from "./pages/animations/MagicRingsPage";
+import MagnetLinesPage from "./pages/animations/MagnetLinesPage";
+import GradualBlurPage from "./pages/animations/GradualBlurPage";
+import MagnetPage from "./pages/animations/MagnetPage";
+import StrandsPage from "./pages/animations/StrandsPage";
+import StickerPeelPage from "./pages/animations/StickerPeelPage";
+import PixelTrailPage from "./pages/animations/PixelTrailPage";
+import CubesPage from "./pages/animations/CubesPage";
+import MetallicPaintPage from "./pages/animations/MetallicPaintPage";
+import ShapeBlurPage from "./pages/animations/ShapeBlurPage";
+import CrosshairPage from "./pages/animations/CrosshairPage";
+import MetaBallsPage from "./pages/animations/MetaBallsPage";
+import BlobCursorPage from "./pages/animations/BlobCursorPage";
+import StarBorderPage from "./pages/animations/StarBorderPage";
+
+import DepthCarouselPage from "./pages/components/DepthCarouselPage";
+
 const backgrounds = {
   "acid-squares": AcidSquaresPage,
   antigravity: AntigravityPage,
@@ -194,6 +226,42 @@ const textAnimations = {
   "text-loop": TextLoopPage,
 };
 
+const animations = {
+  "scroll-expand": ScrollExpandPage,
+  "elastic-mesh": ElasticMeshPage,
+  "ripple-distortion": RippleDistortionPage,
+  "swarm-cursor": SwarmCursorPage,
+  "halftone-reveal": HalftoneRevealPage,
+  "cursor-grid": CursorGridPage,
+  "pixel-swap": PixelSwapPage,
+  "animated-content": AnimatedContentPage,
+  "fade-content": FadeContentPage,
+  "electric-border": ElectricBorderPage,
+  "orbit-images": OrbitImagesPage,
+  "pixel-transition": PixelTransitionPage,
+  "glare-hover": GlareHoverPage,
+  "logo-loop": LogoLoopPage,
+  "target-cursor": TargetCursorPage,
+  "magic-rings": MagicRingsPage,
+  "magnet-lines": MagnetLinesPage,
+  "gradual-blur": GradualBlurPage,
+  magnet: MagnetPage,
+  strands: StrandsPage,
+  "sticker-peel": StickerPeelPage,
+  "pixel-trail": PixelTrailPage,
+  cubes: CubesPage,
+  "metallic-paint": MetallicPaintPage,
+  "shape-blur": ShapeBlurPage,
+  crosshair: CrosshairPage,
+  "meta-balls": MetaBallsPage,
+  "blob-cursor": BlobCursorPage,
+  "star-border": StarBorderPage,
+};
+
+const components = {
+  "depth-carousel": DepthCarouselPage,
+};
+
 function App() {
   const params = new URLSearchParams(window.location.search);
 
@@ -205,9 +273,13 @@ function App() {
 
   const backgroundName = params.get("bg");
   const textAnimationName = params.get("text");
+  const animationName = params.get("anim");
+  const componentName = params.get("comp");
 
   const ActiveBackground = backgrounds[backgroundName];
   const ActiveTextAnimation = textAnimations[textAnimationName];
+  const ActiveAnimation = animations[animationName];
+  const ActiveComponent = components[componentName];
 
   return (
     <main
@@ -222,6 +294,10 @@ function App() {
       {ActiveBackground && <ActiveBackground />}
 
       {ActiveTextAnimation && <ActiveTextAnimation />}
+
+      {ActiveAnimation && <ActiveAnimation />}
+
+      {ActiveComponent && <ActiveComponent />}
     </main>
   );
 }
