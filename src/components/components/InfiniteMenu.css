@@ -53,7 +53,7 @@
 
 .face-title.active {
   opacity: 1;
-  transform: translate(280%, -50%);
+  transform: translate(180%, -50%);
   pointer-events: auto;
   transition: 0.5s ease;
 }
@@ -76,7 +76,7 @@
 
 .face-description.active {
   opacity: 1;
-  transform: translate(-500%, -50%);
+  transform: translate(-340%, -50%);
   pointer-events: auto;
   transition: 0.5s ease;
 }

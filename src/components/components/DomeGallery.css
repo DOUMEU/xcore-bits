@@ -28,8 +28,8 @@ main.sphere-main {
   place-items: center;
   overflow: hidden;
   touch-action: none;
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
   background: transparent;
 }
 

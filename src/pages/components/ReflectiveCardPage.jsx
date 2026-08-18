@@ -13,22 +13,22 @@ const REFLECTION_VIDEO =
 
 function ReflectiveCardPage() {
   return (
+    // 카드 자체가 500px 높이라 DemoLayout이 그대로 가운데 정렬합니다.
+    // 높이를 고정한 래퍼를 두면 카드가 그 박스 위쪽에 붙어 중앙에서 벗어납니다.
     <DemoLayout>
-      <div style={{ height: "600px", position: "relative" }}>
-        <ReflectiveCard
-          videoSrc={REFLECTION_VIDEO}
-          overlayColor="rgba(0, 0, 0, 0.2)"
-          blurStrength={12}
-          glassDistortion={30}
-          metalness={1}
-          roughness={0.75}
-          displacementStrength={20}
-          noiseScale={1}
-          specularConstant={5}
-          grayscale={0.15}
-          color="#ffffff"
-        />
-      </div>
+      <ReflectiveCard
+        videoSrc={REFLECTION_VIDEO}
+        overlayColor="rgba(0, 0, 0, 0.2)"
+        blurStrength={12}
+        glassDistortion={30}
+        metalness={1}
+        roughness={0.75}
+        displacementStrength={20}
+        noiseScale={1}
+        specularConstant={5}
+        grayscale={0.15}
+        color="#ffffff"
+      />
     </DemoLayout>
   );
 }

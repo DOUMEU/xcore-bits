@@ -7,7 +7,7 @@ const logo = `${import.meta.env.BASE_URL}star-sticker.svg`;
 const items = [
   {
     label: "About",
-    bgColor: "#1B1722",
+    bgColor: "#282A2E",
     textColor: "#fff",
     links: [
       { label: "Company", ariaLabel: "About Company" },
@@ -16,7 +16,7 @@ const items = [
   },
   {
     label: "Projects",
-    bgColor: "#2F293A",
+    bgColor: "#282A2E",
     textColor: "#fff",
     links: [
       { label: "Featured", ariaLabel: "Featured Projects" },
@@ -25,7 +25,7 @@ const items = [
   },
   {
     label: "Contact",
-    bgColor: "#2F293A",
+    bgColor: "#282A2E",
     textColor: "#fff",
     links: [
       { label: "Email", ariaLabel: "Email us" },

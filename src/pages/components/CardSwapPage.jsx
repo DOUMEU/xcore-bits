@@ -32,7 +32,7 @@ function CardSwapPage() {
         <CardSwap
           cardDistance={60}
           verticalDistance={70}
-          delay={5000}
+          delay={3000}
           skewAmount={6}
           easing="elastic"
           pauseOnHover={false}

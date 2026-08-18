@@ -6,8 +6,8 @@ function DecayCardPage() {
   return (
     <DemoLayout>
       <DecayCard
-        width={400}
-        height={560}
+        width={320}
+        height={400}
         image="https://picsum.photos/id/1015/600/750?grayscale"
         baseFrequency={0.015}
         numOctaves={5}

@@ -35,9 +35,9 @@ function FlowingMenuPage() {
         items={demoItems}
         speed={15}
         textColor="#ffffff"
-        bgColor="#120F17"
+        bgColor="#000"
         marqueeBgColor="#ffffff"
-        marqueeTextColor="#120F17"
+        marqueeTextColor="#000"
         borderColor="#ffffff"
       />
     </DemoLayout>

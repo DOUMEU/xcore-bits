@@ -9,10 +9,10 @@ function TiltedCardPage() {
         imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
         altText="Kendrick Lamar - GNX Album Cover"
         captionText="Kendrick Lamar - GNX"
-        containerHeight="800px"
-        containerWidth="800px"
-        imageHeight="500px"
-        imageWidth="500px"
+        containerHeight="320px"
+        containerWidth="320px"
+        imageHeight="400px"
+        imageWidth="400px"
         rotateAmplitude={12}
         scaleOnHover={1.05}
         showMobileWarning={false}

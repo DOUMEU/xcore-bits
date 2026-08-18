@@ -96,7 +96,8 @@ const ModeWrapper = memo(function ModeWrapper({
     gl.setRenderTarget(null);
 
     // Background Color
-    gl.setClearColor(0x5227ff, 1);
+    // 페이지 배경(#1A1B1E)과 같은 색이라 캔버스 경계가 보이지 않습니다.
+    gl.setClearColor(0x1a1b1e, 1);
   });
 
   const {

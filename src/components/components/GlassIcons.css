@@ -49,8 +49,8 @@
 .icon-btn__front {
   background-color: hsla(0, 0%, 100%, 0.15);
   box-shadow: 0 0 0 0.1em hsla(0, 0%, 100%, 0.3) inset;
-  backdrop-filter: blur(0.75em);
   -webkit-backdrop-filter: blur(0.75em);
+  backdrop-filter: blur(0.75em);
   -moz-backdrop-filter: blur(0.75em);
   display: flex;
   transform-origin: 80% 50%;

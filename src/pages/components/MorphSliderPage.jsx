@@ -35,7 +35,7 @@ function MorphSliderPage() {
         scale={2.4}
         autoplayDelay={4}
         loop
-        radius={16}
+        radius={0}
         showCaptions
         showControls
         showIndicators
