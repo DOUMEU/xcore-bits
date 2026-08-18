@@ -368,7 +368,7 @@ function App() {
         height: "100vh",
         position: "relative",
         overflow: "hidden",
-        backgroundColor: "#1A1B1E",
+        backgroundColor: "#000",
       }}
     >
       {ActiveBackground && <ActiveBackground />}
