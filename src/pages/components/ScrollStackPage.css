@@ -1,0 +1,21 @@
+/* ScrollStackItem은 itemClassName prop으로 카드마다 클래스를 받는다.
+   카드별 배경색은 여기서 지정한다. */
+.stack-card-1 {
+  background: #7b41c7;
+}
+
+.stack-card-2 {
+  background: #be5bf0;
+}
+
+.stack-card-3 {
+  background: #cf0cc2;
+}
+
+.stack-card-4 {
+  background: #dfc43f;
+}
+
+.stack-card-5 {
+  background: #6fb5e7;
+}

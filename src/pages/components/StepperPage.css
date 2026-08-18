@@ -1,0 +1,52 @@
+/* Next 버튼의 글자가 살짝 아래로 내려가 보이는 문제.
+   flex 정렬은 "줄 상자"를 가운데 두는데, 폰트의 위/아래 여백이
+   19px : 5px로 비대칭이라 실제 글자는 아래로 밀립니다.
+   위 패딩을 줄이고 아래 패딩을 늘려 글자를 시각적으로 가운데 맞춥니다.
+   높이(4+24+8=36px)는 원본과 동일하게 유지됩니다. */
+.next-button {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+/* 원본 프리뷰는 1단계와 마지막 단계 제목을 브랜드 컬러로 강조합니다. */
+.stepper-demo__title {
+  margin: 0;
+  color: #5227ff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.stepper-demo__image {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  /* 고양이 얼굴이 위쪽에 있어 아래로 끌어내려 잘라냅니다. */
+  object-position: center -70px;
+  border-radius: 15px;
+  margin-top: 1em;
+  display: block;
+}
+
+.stepper-demo__caption {
+  margin-top: 1em;
+}
+
+.stepper-demo__input {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #414141;
+  background: #1a1b1e;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+.stepper-demo__input::placeholder {
+  color: #6b6b6b;
+}
+
+.stepper-demo__input:focus {
+  border-color: #5227ff;
+}

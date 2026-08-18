@@ -1,0 +1,100 @@
+/* 원본 프리뷰: 왼쪽 절반은 문구, 오른쪽 절반은 카드 스택. */
+.card-swap-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.card-swap-demo__copy {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 6rem;
+}
+
+.card-swap-demo__title {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+}
+
+/* 넓은 화면에서만 줄바꿈해서 두 줄로 만듭니다. */
+.card-swap-demo__title span {
+  display: block;
+}
+
+.card-swap-demo__subtitle {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #999;
+}
+
+/* 카드 스택은 이 영역의 오른쪽 아래를 기준으로 배치됩니다. */
+.card-swap-demo__stage {
+  position: relative;
+  width: 40%;
+  height: 70%;
+}
+
+.card-swap-demo__card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-swap-demo__card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  padding: 0.5rem;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  background: linear-gradient(to top, #1b1722, #060606);
+}
+
+.card-swap-demo__card-body {
+  position: relative;
+  flex: 1;
+}
+
+.card-swap-demo__card-body img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 좁은 화면에서는 위아래로 쌓습니다(원본과 동일). */
+@media (max-width: 992px) {
+  .card-swap-demo {
+    flex-direction: column;
+  }
+
+  .card-swap-demo__copy {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  }
+
+  .card-swap-demo__title span {
+    display: inline;
+  }
+
+  .card-swap-demo__stage {
+    width: 100%;
+    height: 400px;
+  }
+}

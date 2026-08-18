@@ -1,0 +1,51 @@
+/* 원본 프리뷰의 데모 배경(.demo-container-dots)을 그대로 옮긴 것입니다.
+   점 격자를 깔고, 가장자리로 갈수록 mask로 서서히 지웁니다. */
+.staggered-menu-demo {
+  position: absolute;
+  inset: 0;
+  background: #120f17;
+}
+
+.staggered-menu-demo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, #2f293a 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: 0;
+
+  /* 가로/세로 두 그라디언트를 교차(intersect)시켜 사방 가장자리를 흐립니다. */
+  mask:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      black 35%,
+      black 55%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      black 35%,
+      black 55%,
+      transparent 100%
+    );
+  mask-composite: intersect;
+  -webkit-mask:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      black 35%,
+      black 55%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      black 35%,
+      black 55%,
+      transparent 100%
+    );
+  -webkit-mask-composite: source-in;
+}

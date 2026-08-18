@@ -1,0 +1,13 @@
+/* 원본 프리뷰(reactbits.dev/components/tilted-card)의 오버레이 타이틀 스타일.
+   컴포넌트 자체가 아니라 데모용 스타일이라 페이지 CSS로 분리해 둡니다. */
+.tilted-card-demo-text {
+  font-weight: 900;
+  text-transform: capitalize;
+  box-shadow: 0 5px 30px #120f1759;
+  border-radius: 12px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1em;
+  letter-spacing: -0.5px;
+  margin: 2em;
+}

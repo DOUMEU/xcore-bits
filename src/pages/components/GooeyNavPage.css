@@ -1,0 +1,18 @@
+.gooey-nav-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 파티클 색상. GooeyNav.jsx가 colors={[1,2,3,1,2,3,1,4]}를 받아
+   각 파티클에 var(--color-1) ~ var(--color-4)를 지정합니다.
+   컴포넌트 CSS에는 이 변수들이 정의돼 있지 않아, 정의하지 않으면
+   기본값 white로 떨어집니다. 여기서 원하는 색으로 지정합니다. */
+.gooey-nav-demo {
+  --color-1: #ffffff;
+  --color-2: #7dbeff;
+  --color-3: #9ccf97;
+  --color-4: #5227ff;
+}

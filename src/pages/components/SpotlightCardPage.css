@@ -1,0 +1,38 @@
+/* 원본 프리뷰의 데모 전용 클래스(.custom-spotlight-card)를 그대로 옮긴 것입니다.
+   SpotlightCard.css의 .card-spotlight보다 우선하도록 원본도 !important를 씁니다. */
+.custom-spotlight-card {
+  user-select: none;
+  background-color: #1a1b1e !important;
+  border: 1px solid #4b4f59 !important;
+  width: 350px;
+  height: 300px;
+}
+
+.spotlight-card-demo__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.spotlight-card-demo__icon {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.spotlight-card-demo__title {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #fff;
+}
+
+.spotlight-card-demo__desc {
+  margin: 0.25rem 0 2rem;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a1a1aa;
+}

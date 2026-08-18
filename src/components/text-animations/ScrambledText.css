@@ -6,7 +6,8 @@
   color: #fff;
 }
 
-.char {
+/* `.char`는 ScrollFloat.css에도 있는 이름이라 컴포넌트 안으로 한정합니다. */
+.text-block .char {
   will-change: transform;
   display: inline-block;
 }

@@ -8,6 +8,7 @@
   font-weight: 700;
 }
 
-.word {
+/* `.word`는 FallingText.css에도 있는 이름이라 컴포넌트 안으로 한정합니다. */
+.scroll-reveal .word {
   display: inline-block;
 }

@@ -1,0 +1,74 @@
+.glass-surface-demo {
+  position: relative;
+  width: min(500px, 90vw);
+  height: min(500px, 80vh);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* 스크롤되는 아래 레이어 */
+.glass-surface-demo__scroller {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  /* 위: 타이틀이 유리판보다 위에서 시작하도록 확보하는 여백.
+     아래: 마지막 이미지를 지나서도 계속 스크롤되도록 남기는 여백. */
+  padding: 120px 0 320px;
+  scrollbar-width: none;
+}
+
+.glass-surface-demo__scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.glass-surface-demo__hint {
+  /* 위 gap 16px과 합쳐 타이틀-첫 이미지 간격 90px */
+  margin: 0 0 120px;
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: #2f293a;
+  white-space: nowrap;
+}
+
+.glass-surface-demo__slide {
+  position: relative;
+  flex: none;
+  width: 100%;
+}
+
+.glass-surface-demo__slide img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.glass-surface-demo__slide span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  min-width: 300px;
+  mix-blend-mode: overlay;
+}
+
+/* 유리판을 올리는 위 레이어. 스크롤을 가로막지 않도록 클릭을 통과시킵니다. */
+.glass-surface-demo__glass {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 10;
+}

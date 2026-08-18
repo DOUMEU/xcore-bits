@@ -1,0 +1,6 @@
+/* 원본 프리뷰는 카드 문구에 mix-blend-mode: overlay를 걸어
+   글자가 사진 위에 인쇄된 것처럼 보이게 합니다. */
+.decay-card-demo__text {
+  mix-blend-mode: overlay;
+  color: #fff;
+}

@@ -124,6 +124,46 @@ import BlobCursorDocs from "../animations/BlobCursor";
 import StarBorderDocs from "../animations/StarBorder";
 
 import DepthCarouselDocs from "../components/DepthCarousel";
+import AccordionGalleryDocs from "../components/AccordionGallery";
+import MorphSliderDocs from "../components/MorphSlider";
+import DriftWallDocs from "../components/DriftWall";
+import SpecularButtonDocs from "../components/SpecularButton";
+import OptionWheelDocs from "../components/OptionWheel";
+import CurvedInputDocs from "../components/CurvedInput";
+import LineSidebarDocs from "../components/LineSidebar";
+import AnimatedListDocs from "../components/AnimatedList";
+import ScrollStackDocs from "../components/ScrollStack";
+import BubbleMenuDocs from "../components/BubbleMenu";
+import MagicBentoDocs from "../components/MagicBento";
+import CircularGalleryDocs from "../components/CircularGallery";
+import ReflectiveCardDocs from "../components/ReflectiveCard";
+import CardNavDocs from "../components/CardNav";
+import StackDocs from "../components/Stack";
+import FluidGlassDocs from "../components/FluidGlass";
+import TiltedCardDocs from "../components/TiltedCard";
+import MasonryDocs from "../components/Masonry";
+import GlassSurfaceDocs from "../components/GlassSurface";
+import DomeGalleryDocs from "../components/DomeGallery";
+import ChromaGridDocs from "../components/ChromaGrid";
+import FolderDocs from "../components/Folder";
+import StaggeredMenuDocs from "../components/StaggeredMenu";
+import ModelViewerDocs from "../components/ModelViewer";
+import LanyardDocs from "../components/Lanyard";
+import ProfileCardDocs from "../components/ProfileCard";
+import DockDocs from "../components/Dock";
+import GooeyNavDocs from "../components/GooeyNav";
+import PixelCardDocs from "../components/PixelCard";
+import CarouselDocs from "../components/Carousel";
+import SpotlightCardDocs from "../components/SpotlightCard";
+import BorderGlowDocs from "../components/BorderGlow";
+import FlyingPostersDocs from "../components/FlyingPosters";
+import CardSwapDocs from "../components/CardSwap";
+import GlassIconsDocs from "../components/GlassIcons";
+import DecayCardDocs from "../components/DecayCard";
+import FlowingMenuDocs from "../components/FlowingMenu";
+import ElasticSliderDocs from "../components/ElasticSlider";
+import InfiniteMenuDocs from "../components/InfiniteMenu";
+import StepperDocs from "../components/Stepper";
 
 export const docsRegistry = {
   "backgrounds/acid-squares": AcidSquaresDocs,
@@ -252,6 +292,46 @@ export const docsRegistry = {
   "animations/star-border": StarBorderDocs,
 
   "components/depth-carousel": DepthCarouselDocs,
+  "components/accordion-gallery": AccordionGalleryDocs,
+  "components/morph-slider": MorphSliderDocs,
+  "components/drift-wall": DriftWallDocs,
+  "components/specular-button": SpecularButtonDocs,
+  "components/option-wheel": OptionWheelDocs,
+  "components/curved-input": CurvedInputDocs,
+  "components/line-sidebar": LineSidebarDocs,
+  "components/animated-list": AnimatedListDocs,
+  "components/scroll-stack": ScrollStackDocs,
+  "components/bubble-menu": BubbleMenuDocs,
+  "components/magic-bento": MagicBentoDocs,
+  "components/circular-gallery": CircularGalleryDocs,
+  "components/reflective-card": ReflectiveCardDocs,
+  "components/card-nav": CardNavDocs,
+  "components/stack": StackDocs,
+  "components/fluid-glass": FluidGlassDocs,
+  "components/tilted-card": TiltedCardDocs,
+  "components/masonry": MasonryDocs,
+  "components/glass-surface": GlassSurfaceDocs,
+  "components/dome-gallery": DomeGalleryDocs,
+  "components/chroma-grid": ChromaGridDocs,
+  "components/folder": FolderDocs,
+  "components/staggered-menu": StaggeredMenuDocs,
+  "components/model-viewer": ModelViewerDocs,
+  "components/lanyard": LanyardDocs,
+  "components/profile-card": ProfileCardDocs,
+  "components/dock": DockDocs,
+  "components/gooey-nav": GooeyNavDocs,
+  "components/pixel-card": PixelCardDocs,
+  "components/carousel": CarouselDocs,
+  "components/spotlight-card": SpotlightCardDocs,
+  "components/border-glow": BorderGlowDocs,
+  "components/flying-posters": FlyingPostersDocs,
+  "components/card-swap": CardSwapDocs,
+  "components/glass-icons": GlassIconsDocs,
+  "components/decay-card": DecayCardDocs,
+  "components/flowing-menu": FlowingMenuDocs,
+  "components/elastic-slider": ElasticSliderDocs,
+  "components/infinite-menu": InfiniteMenuDocs,
+  "components/stepper": StepperDocs,
 };
 
 export function getDocsByPath(path) {

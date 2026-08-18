@@ -11,6 +11,7 @@
   color: #fff;
 }
 
-.char {
+/* `.char`는 ScrambledText.css에도 있는 이름이라 컴포넌트 안으로 한정합니다. */
+.scroll-float .char {
   display: inline-block;
 }

@@ -1,0 +1,15 @@
+/* ChromaGrid는 .chroma-overlay / .chroma-fade가 자기 영역 전체에
+   backdrop-filter: grayscale(1) brightness(0.78)을 겁니다.
+   그래서 그리드가 화면보다 작으면 필터가 걸린 안쪽과 걸리지 않은 바깥쪽 사이에
+   색 경계가 눈에 띕니다. 그리드를 화면 전체로 늘려 경계 자체를 없앱니다.
+
+   .chroma-grid를 함께 붙여 원본 규칙(max-width: 1200px 등)보다
+   우선순위를 높입니다. !important는 필요 없습니다. */
+.chroma-grid.chroma-grid--fullscreen {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* 카드를 세로 가운데로 모읍니다. 없으면 위쪽에 붙습니다. */
+  align-content: center;
+}

@@ -1,0 +1,49 @@
+.pixel-card-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+}
+
+/* PixelCard 안의 콘텐츠는 반드시 position: absolute여야 합니다.
+   .pixel-card가 display: grid; place-items: center라서,
+   흐름에 두면 픽셀 캔버스와 나란히 배치되어 카드가 늘어납니다. */
+.pixel-card-demo__content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  text-align: center;
+  pointer-events: none; /* 마우스 이벤트를 카드로 통과시켜 hover 효과 유지 */
+  user-select: none;
+}
+
+.pixel-card-demo__icon {
+  display: flex;
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.pixel-card-demo__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.pixel-card-demo__desc {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+}

@@ -1,0 +1,62 @@
+/* 화면 전체를 씁니다.
+   구 크기는 캔버스의 짧은 변(대개 세로)이 결정하므로,
+   세로가 커진 만큼 InfiniteMenu의 scale prop을 올려 균형을 맞춥니다. */
+.infinite-menu-demo {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+
+  /* 원본은 1초 뒤 scale(5) → scale(1)로 줌아웃하며 등장합니다. */
+  animation: infinite-menu-demo-intro 1s ease both;
+}
+
+@keyframes infinite-menu-demo-intro {
+  from {
+    opacity: 0;
+    transform: scale(5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* InfiniteMenu.css는 1500px 이하에서 제목/설명을 숨깁니다.
+   좁은 화면에서 구와 겹치는 걸 막으려는 처리인데,
+   여기서는 문구를 항상 보이게 하고 위치를 다시 잡습니다.
+   클래스 2개라 원본(클래스 1개)보다 우선순위가 높아 !important가 필요 없습니다. */
+@media (max-width: 1500px) {
+  .infinite-menu-demo .face-title,
+  .infinite-menu-demo .face-description {
+    display: block;
+  }
+}
+
+/* 좁은 화면에서는 구를 피해 위아래로 배치합니다. */
+@media (max-width: 1100px) {
+  .infinite-menu-demo .face-title {
+    top: 12%;
+    left: 50%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .infinite-menu-demo .face-title.active,
+  .infinite-menu-demo .face-title.inactive {
+    transform: translate(-50%, -50%);
+  }
+
+  .infinite-menu-demo .face-description {
+    top: auto;
+    bottom: 14%;
+    left: 50%;
+    right: auto;
+    max-width: 24ch;
+    text-align: center;
+  }
+
+  .infinite-menu-demo .face-description.active,
+  .infinite-menu-demo .face-description.inactive {
+    transform: translate(-50%, 0);
+  }
+}

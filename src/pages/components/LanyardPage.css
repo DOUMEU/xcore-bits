@@ -1,0 +1,20 @@
+.lanyard-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #1a1b1e 0%, #282a2e 100%);
+}
+
+/* 배경보다 살짝 밝은 회색이라 카드 뒤에 은은하게 깔립니다.
+   z-index를 주지 않아 3D 캔버스가 항상 이 위에 그려집니다. */
+.lanyard-demo__text {
+  position: absolute;
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 6rem);
+  font-weight: 900;
+  color: #3a3d44;
+  user-select: none;
+}

@@ -1,0 +1,35 @@
+.model-viewer-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* 모델은 modelXOffset={0.5}로 오른쪽에 치우쳐 있고,
+   문구는 그 왼쪽 빈 자리에 놓입니다.
+   left 단위가 em이라 아래 font-size(3rem)를 기준으로 계산됩니다. */
+.model-viewer-demo__text {
+  position: absolute;
+  top: 50%;
+  left: 6em;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 1;
+
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  user-select: none;
+}
+
+/* 좁은 화면에서는 문구가 모델을 가려서 숨깁니다(원본과 동일). */
+@media (max-width: 768px) {
+  .model-viewer-demo__text {
+    display: none;
+  }
+}

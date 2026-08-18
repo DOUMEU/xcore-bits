@@ -126,6 +126,46 @@ import BlobCursorPage from "./pages/animations/BlobCursorPage";
 import StarBorderPage from "./pages/animations/StarBorderPage";
 
 import DepthCarouselPage from "./pages/components/DepthCarouselPage";
+import AccordionGalleryPage from "./pages/components/AccordionGalleryPage";
+import MorphSliderPage from "./pages/components/MorphSliderPage";
+import DriftWallPage from "./pages/components/DriftWallPage";
+import SpecularButtonPage from "./pages/components/SpecularButtonPage";
+import OptionWheelPage from "./pages/components/OptionWheelPage";
+import CurvedInputPage from "./pages/components/CurvedInputPage";
+import LineSidebarPage from "./pages/components/LineSidebarPage";
+import AnimatedListPage from "./pages/components/AnimatedListPage";
+import ScrollStackPage from "./pages/components/ScrollStackPage";
+import BubbleMenuPage from "./pages/components/BubbleMenuPage";
+import MagicBentoPage from "./pages/components/MagicBentoPage";
+import CircularGalleryPage from "./pages/components/CircularGalleryPage";
+import ReflectiveCardPage from "./pages/components/ReflectiveCardPage";
+import CardNavPage from "./pages/components/CardNavPage";
+import StackPage from "./pages/components/StackPage";
+import FluidGlassPage from "./pages/components/FluidGlassPage";
+import TiltedCardPage from "./pages/components/TiltedCardPage";
+import MasonryPage from "./pages/components/MasonryPage";
+import GlassSurfacePage from "./pages/components/GlassSurfacePage";
+import DomeGalleryPage from "./pages/components/DomeGalleryPage";
+import ChromaGridPage from "./pages/components/ChromaGridPage";
+import FolderPage from "./pages/components/FolderPage";
+import StaggeredMenuPage from "./pages/components/StaggeredMenuPage";
+import ModelViewerPage from "./pages/components/ModelViewerPage";
+import LanyardPage from "./pages/components/LanyardPage";
+import ProfileCardPage from "./pages/components/ProfileCardPage";
+import DockPage from "./pages/components/DockPage";
+import GooeyNavPage from "./pages/components/GooeyNavPage";
+import PixelCardPage from "./pages/components/PixelCardPage";
+import CarouselPage from "./pages/components/CarouselPage";
+import SpotlightCardPage from "./pages/components/SpotlightCardPage";
+import BorderGlowPage from "./pages/components/BorderGlowPage";
+import FlyingPostersPage from "./pages/components/FlyingPostersPage";
+import CardSwapPage from "./pages/components/CardSwapPage";
+import GlassIconsPage from "./pages/components/GlassIconsPage";
+import DecayCardPage from "./pages/components/DecayCardPage";
+import FlowingMenuPage from "./pages/components/FlowingMenuPage";
+import ElasticSliderPage from "./pages/components/ElasticSliderPage";
+import InfiniteMenuPage from "./pages/components/InfiniteMenuPage";
+import StepperPage from "./pages/components/StepperPage";
 
 const backgrounds = {
   "acid-squares": AcidSquaresPage,
@@ -260,6 +300,46 @@ const animations = {
 
 const components = {
   "depth-carousel": DepthCarouselPage,
+  "accordion-gallery": AccordionGalleryPage,
+  "morph-slider": MorphSliderPage,
+  "drift-wall": DriftWallPage,
+  "specular-button": SpecularButtonPage,
+  "option-wheel": OptionWheelPage,
+  "curved-input": CurvedInputPage,
+  "line-sidebar": LineSidebarPage,
+  "animated-list": AnimatedListPage,
+  "scroll-stack": ScrollStackPage,
+  "bubble-menu": BubbleMenuPage,
+  "magic-bento": MagicBentoPage,
+  "circular-gallery": CircularGalleryPage,
+  "reflective-card": ReflectiveCardPage,
+  "card-nav": CardNavPage,
+  stack: StackPage,
+  "fluid-glass": FluidGlassPage,
+  "tilted-card": TiltedCardPage,
+  masonry: MasonryPage,
+  "glass-surface": GlassSurfacePage,
+  "dome-gallery": DomeGalleryPage,
+  "chroma-grid": ChromaGridPage,
+  folder: FolderPage,
+  "staggered-menu": StaggeredMenuPage,
+  "model-viewer": ModelViewerPage,
+  lanyard: LanyardPage,
+  "profile-card": ProfileCardPage,
+  dock: DockPage,
+  "gooey-nav": GooeyNavPage,
+  "pixel-card": PixelCardPage,
+  carousel: CarouselPage,
+  "spotlight-card": SpotlightCardPage,
+  "border-glow": BorderGlowPage,
+  "flying-posters": FlyingPostersPage,
+  "card-swap": CardSwapPage,
+  "glass-icons": GlassIconsPage,
+  "decay-card": DecayCardPage,
+  "flowing-menu": FlowingMenuPage,
+  "elastic-slider": ElasticSliderPage,
+  "infinite-menu": InfiniteMenuPage,
+  stepper: StepperPage,
 };
 
 function App() {
@@ -288,7 +368,7 @@ function App() {
         height: "100vh",
         position: "relative",
         overflow: "hidden",
-        backgroundColor: "#09090B",
+        backgroundColor: "#1A1B1E",
       }}
     >
       {ActiveBackground && <ActiveBackground />}

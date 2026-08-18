@@ -1,10 +1,9 @@
-import { useState } from "react";
 import DemoLayout from "../../components/DemoLayout";
 import DepthText from "../../components/text-animations/DepthText";
 
+// autoOrbit으로 계속 회전하고 포인터도 따라다니는 연속 모션이라
+// 되돌릴 "처음 상태"가 없습니다. 리플레이 버튼이 필요 없습니다.
 function DepthTextPage() {
-  const [replayKey, setReplayKey] = useState(0);
-
   return (
     <DemoLayout>
       <DepthText

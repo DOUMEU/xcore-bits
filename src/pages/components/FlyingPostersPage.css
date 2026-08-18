@@ -1,0 +1,20 @@
+.flying-posters-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* 원본 프리뷰의 배경 문구.
+   .posters-container가 z-index: 2라서 문구는 자동으로 그 뒤에 깔립니다. */
+.flying-posters-demo__text {
+  position: absolute;
+  margin: 0;
+  z-index: 0;
+  font-size: clamp(2rem, 6vw, 6rem);
+  font-weight: 900;
+  color: #3a3d44;
+  user-select: none;
+}

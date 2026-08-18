@@ -1,0 +1,17 @@
+.dock-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* 원본 프리뷰의 배경 문구. 배경보다 살짝 밝은 회색이라 은은하게 깔립니다. */
+.dock-demo__text {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #4b4f59;
+  user-select: none;
+}
