@@ -1,5 +1,10 @@
 import DemoLayout from "../../components/DemoLayout";
 import BubbleMenu from "../../components/components/BubbleMenu";
+import "./BubbleMenuPage.css";
+
+// logo에 문자열을 주면 BubbleMenu가 <img>로 렌더링합니다.
+// public 폴더의 파일은 배포 경로(base)가 앞에 붙어야 하므로 BASE_URL을 사용합니다.
+const logo = `${import.meta.env.BASE_URL}star-sticker.svg`;
 
 const items = [
   {
@@ -43,7 +48,7 @@ function BubbleMenuPage() {
   return (
     <DemoLayout>
       <BubbleMenu
-        logo={<span style={{ fontWeight: 700 }}>RB</span>}
+        logo={logo}
         items={items}
         menuAriaLabel="Toggle navigation"
         menuBg="#ffffff"
