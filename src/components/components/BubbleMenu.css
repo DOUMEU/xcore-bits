@@ -230,7 +230,7 @@
   display: inline-block;
   will-change: transform, opacity;
   height: 1.2em;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 @media (max-width: 899px) {
